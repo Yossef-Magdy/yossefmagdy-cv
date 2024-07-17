@@ -1,0 +1,259 @@
+%-------------------------
+% Resume in Latex
+% Author : Aras Gungore, Yossef Magdy
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{hyphenat}
+\usepackage{fontawesome} 
+\input{glyphtounicode}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubSubheading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeEducationHeading}[6]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+      \textit{\small#5} & \textit{\small #6} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%---------- HEADING ----------
+
+\begin{center}
+    \textbf{\Huge \scshape Yossef Magdy} \\ \vspace{3pt}
+    \small
+	\faEnvelope \hspace{.5pt} \href{mailto:yossefmagdy78@gmail.com}{yossefmagdy78@gmail.com}
+   	$|$
+	\faLinkedinSquare \hspace{.5pt} \href{https://www.linkedin.com/in/yossef-magdy}{LinkedIn}
+    $|$
+    \faGithub \hspace{.5pt} \href{https://github.com/yossef-magdy}{GitHub}
+    
+\end{center}
+
+
+
+%----------- EDUCATION -----------
+
+\section{Education}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+    
+    \resumeSubheading
+	{Information Technology Institute (ITI)}{Giza, Egypt}
+	{Intensive Code Camp Full Stack Web Development Using PHP }{May 2024 \textbf{--} Present}
+    
+    \resumeSubheading
+    {Cairo University Faculty of Science}{Giza, Egypt}
+    {B.Sc. in Computer Science   \textbf}{Sep 2018 \textbf{--} Jan 2023}
+    \resumeSubHeadingListStart
+    \small{
+    	\item{
+    	\textbf{Graduation Project:}
+    		Matlab program to solve a system of linear equations using Jacobi and CG (Conjugate Gradient) iterative methods in parallel under the supervision of \href{https://eg.linkedin.com/in/nasser-sweilam-08340141}{\color{blue} Prof. Nasser Sweilam}
+      	}
+    }
+    \resumeSubHeadingListEnd
+
+    
+  \resumeSubHeadingListEnd
+
+
+
+%----------- SKILLS -----------
+
+\section{Skills}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+        
+        \textbf{Languages:}{ C++, Java, Python, JavaScript, PHP} \\ \vspace{3pt}
+        
+        \textbf{Frontend:}{ HTML5, CSS3, React.js} \\ 
+        \vspace{3pt}
+
+		\textbf{Backend:}{ MySQL, SQL Server, Java Spring Boot} \\ 
+		\vspace{3pt}   
+		
+		\textbf{Version Control:}{ Git} \\ 
+		\vspace{3pt}   
+				    
+        \textbf{Concepts:}{ OOP, Data Structures, Algorithms, Database, Basic Networking} \\ 
+        \vspace{3pt}
+        
+    }}
+  \resumeSubHeadingListEnd
+
+
+
+%----------- EXPERIENCE -----------
+
+\section{Experience}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+
+
+    % \vspace{20pt}
+    \resumeSubheading
+      {Karezma}{Giza, Egypt}
+      {Fullstack Internship}{July 2020 \textbf{--} Sep 2020, Internship}
+        \resumeItemListStart
+        	\resumeItem{Built and designed at database to store the drivers, vehicle and vehicle maintenance information using MySQL}
+        	\resumeItem{Created \textbf{3} dynamic pages, one for displaying the data of each table in the database and doing CRUD operations using HTML5, CSS3, Javascript library \textbf{DataTable}, and PHP}
+        \resumeItemListEnd
+  
+  \resumeSubHeadingListEnd
+
+
+
+%----------- PROJECTS -----------
+
+\section{Projects}
+\vspace{3pt}
+\resumeSubHeadingListStart
+
+
+\resumeProjectHeading
+{\textbf{Pacman (2D Graphic Game)} (\textbf{Java}) (\textbf{JOGL}) $|$ \href{https://github.com/Yossef-Magdy/Pacman}{GitHub \faLink}}{}
+\resumeItemListStart
+\resumeItem{Developed a clone of the retro game Pacman using algorithms like flood fill to find a path for ghosts to reach Pacman.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+
+
+%----------- AWARDS & ACHIEVEMENTS -----------
+
+\section{Awards \& Achievements}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+        \textbf{\href{https://drive.google.com/file/d/1kxMcLRh3jysNW1Yy4loKLkkGkbccFPU_/view?usp=drive_link}{ACPC 2022 \faicon{link}}:}
+        {Ranked \textbf{37} out of \textbf{200+} teams} 
+        \\ \vspace{3pt}
+		\textbf{\href{https://drive.google.com/file/d/1p7HnOlci6spjWYa2FNIF-FpbT-O8zQ8h/view?usp=drive_link}{ECPC 2022 \faicon{link}}:} 
+		{Ranked \textbf{41} out of \textbf{200+} teams} 
+		\\ \vspace{3pt}
+		
+		\textbf{{\href{https://codeforces.com/profile/Yossef}{Codeforces \faicon{link}}}:}
+		{Solved \textbf{1300+} problems} \\ 
+		\vspace{3pt}
+    }}
+  \resumeSubHeadingListEnd
+
+
+
+%----------- Extracurricular Activities -----------
+
+
+
+\section{Extracurricular Activities}
+
+\resumeSubHeadingListStart
+
+\resumeSubheading{ICPC Cairo Science Club \href{https://www.facebook.com/sci.cpc}{\faLink}}{Cairo University Faculty of Science}
+{Coach} {2022 \textbf{--} present}
+\resumeItemListStart
+\resumeItem{Participated in coaching \textbf{100+} community members to prepare for the Egyptian Collegiate Programming Contest (ECPC)}
+\resumeItem{Held \textbf{200+} sessions collectively to explain important problem–solving Techniques and Algorithms}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+
+\end{document}
